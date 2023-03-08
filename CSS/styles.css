@@ -1,12 +1,21 @@
 :root {
     --color-pale-black: rgb(66, 66, 66);
     --color-aquamarine: rgb(72, 207, 173);
+    --color-white: rgb(255, 255, 255);
 }
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+}
+.no-scroll {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 a {
     font-size: 18px;
@@ -50,3 +59,35 @@ a {
     padding: 0 70px 0 0;
 }
 
+/* Home */
+.inicio-contenedor {
+    width: 100%;
+    height: 100%;
+    background: url('/Assets/cover-home.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.inicio {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.titulo-inicio {
+    margin: 0 0 30px 0;
+    font-size: 34px;
+    color: var(--color-white);
+}
+.btn {
+    font-size: 15px;
+    background: none;
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+    padding: 12px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
