@@ -1,0 +1,38 @@
+:root {
+    --color-pale-black: rgb(66, 66, 66);
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Header */
+.nav-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 220px;
+    padding: 0 0 0 30px;
+}
+.logo img {
+    width: 100%;
+}
+.links {
+    padding: 0;
+}
+.sobreMi {
+    list-style: none;
+}
+.sobreMi a {
+    color: var(--color-pale-black);
+    padding: 0 70px 0 0;
+}
+
