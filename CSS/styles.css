@@ -1,5 +1,6 @@
 :root {
     --color-pale-black: rgb(66, 66, 66);
+    --color-aquamarine: rgb(72, 207, 173);
 }
 body {
     margin: 0;
@@ -13,6 +14,19 @@ a {
 }
 
 /* Header */
+.social-links {
+    background: var(--color-aquamarine);
+}
+.social-links-icons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    padding: 0 70px 0 0;
+}
+.social-links-icons a span {
+    color: white;
+}
 .nav-contenedor {
     display: flex;
     align-items: center;
