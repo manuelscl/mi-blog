@@ -182,6 +182,33 @@ a {
     cursor: pointer;
 }
 
+/* Profile */
+.perfil-inicio {
+    display: flex;
+    background: var(--color-gray);
+    padding: 40px 70px;
+    gap: 60px;
+}
+.perfil-img-contenedor {
+    width: 100%;
+}
+.perfil-img-contenedor img {
+    width: 450px;
+}
+.perfil-sobreMi {
+    padding-right: 40px;
+}
+.perfil-titulo {
+    color: var(--color-pale-black);
+    margin-top: 0;
+}
+/* .titulo-detalle:hover { 
+    border-bottom: 3px solid var(--color-aquamarine);
+} */
+.perfil-descripcion {
+    color: var(--color-pale-black);
+    line-height: 23px;
+}
 /* Footer */
 .footer {
     height: 70px;
