@@ -2,6 +2,7 @@
     --color-pale-black: rgb(66, 66, 66);
     --color-aquamarine: rgb(72, 207, 173);
     --color-white: rgb(255, 255, 255);
+    --color-gray: #ECF0F4;
 }
 body {
     margin: 0;
@@ -90,4 +91,111 @@ a {
     padding: 12px 40px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+/* Blog */
+.noticias {
+    display: flex;
+    padding: 40px 70px;
+    background: var(--color-gray);
+    gap: 75px;
+}
+.noticias div:nth-child(2) {
+    padding-top: 12px;
+}
+.noticias-img-contenedor img {
+    width: 500px;
+}
+.subtitulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.primer-titulo {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.descripcion {
+    font-size: 16px;
+    color: var(--color-pale-black);
+    line-height: 23px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.btn-gb {
+    font-size: 15px;
+    color: var(--color-white);
+    background: var(--color-aquamarine);
+    border: none;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Blog-Posts */
+.post-titulo-contenedor {
+    position: relative;
+    margin-top: 40px;
+}
+.segundo-titulo {
+    font-size: 18px;
+    text-align: center;
+}
+.underline {
+    position: absolute;
+    width: 350px;
+    height: 1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #989898;
+}
+.posts-contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    padding: 0 70px;
+}
+.post {
+    width: 330px;
+    border: 1px solid var(--color-pale-black);
+}
+.post img {
+    width: 100%;
+}
+.post-contenido {
+    padding: 20px;
+}
+.tercer-titulo {
+    font-size: 16px;
+}
+.post-descripcion {
+    font-size: 14.5px;
+    color: var(--color-pale-black);
+    margin-bottom: 20px;
+}
+.btn-post {
+    font-size: 15px;
+    padding: 12px 40px;
+    background: none;
+    border: 1px solid var(--color-pale-black);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #22272d;
+    border-top: 20px solid var(--color-aquamarine);
+}
+.madeBy {
+    font-size: 15px;
+    color: var(--color-white);
+    margin: 0;
+}
+.madeBy span {
+    color: rgb(255, 227, 125);
 }
