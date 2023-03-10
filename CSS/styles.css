@@ -209,6 +209,22 @@ a {
     color: var(--color-pale-black);
     line-height: 23px;
 }
+.titulo-contenedor {
+    margin-top: 40px;
+}
+.proyectos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    gap: 60px;
+    margin: 60px 0;
+}
+.proyecto {
+    display: flex;
+}
+.proyecto img {
+    width: 100%;
+}
 /* Footer */
 .footer {
     height: 70px;
