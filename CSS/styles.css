@@ -225,6 +225,33 @@ a {
 .proyecto img {
     width: 100%;
 }
+
+/* Blogpost */
+.img-post {
+    width: 940px;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.img-post img {
+    width: 100%;
+}
+.post-p {
+    width: 940px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.post-p h1 {
+    font-size: 28px;
+    color: var(--color-pale-black);
+}
+.post-p p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
 /* Footer */
 .footer {
     height: 70px;
